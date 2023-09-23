@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background-image: url("./2955341.jpg");
+    background-attachment: fixed;
+    background-position: inherit;
+    
+}
+
+
+
+.conteudo {
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 50px auto;
+}
+
+.textInsert {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+button{
+    border: 0px;
+    background-color: transparent;
+}
+
+.button-add-task {
+    border: none;
+    height: 80px;
+    font-size: 40px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-add-task:hover {
+    opacity: 0.8;
+}
+
+.button-add-task:active {
+    opacity: 0.6;
+}
+
+.lista {
+    width: 50%;
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 180px;
+    margin-left: 280px;
+}
+
+.task {
+    background-color: #F2F2F2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.conteudo i {
+    height: 25px;
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover i {
+    opacity: 1;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+
+/* @media (max-width: 775px){
+    input{
+        width: 70%;
+    }
+
+    .divInsert{
+        width: 30%;
+    }
+
+    i{
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    p{
+        font-size: x-large;
+    }
+
+
+} */
